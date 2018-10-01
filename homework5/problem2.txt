@@ -1,0 +1,8 @@
+a. 3
+b. 5
+c. 5
+d. error
+e. error
+f. [9, 4.0, 'no'] (This is the standard output if we print(z))
+g. A tuple is immutable which means its elements cannot be changed.
+h. A list is mutable which means its elements can be changed
