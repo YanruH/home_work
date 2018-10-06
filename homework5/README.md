@@ -15,14 +15,22 @@ your fork to your local machine. Complete the rest of these exercises on your ma
 ## Problem 2 - `Closed Laptop`
 In other words, try to do these without the aid of your broswer or `docstrings`.
 1. Provide the expected output, if error, put "error".  
-    a. len({1, 1, 1.0, 1j, 'hello'})  
-    b. len((1, 1, 1.0, 1j, 'hello'))  
-    c. len([1, 1, 1.0, 1j, 'hello'])  
-    d. z = {1, 4.0, 'no'}; z[0]  
-    e. z = (1, 4.0, 'no'); z[0] = 9  
-    f. z = [1, 4.0, 'no']; z[0] = 9  
+    a. len({1, 1, 1.0, 1j, 'hello'}) 
+	3
+    b. len((1, 1, 1.0, 1j, 'hello'))
+	5  
+    c. len([1, 1, 1.0, 1j, 'hello'])
+	5  
+    d. z = {1, 4.0, 'no'}; z[0]
+	error  
+    e. z = (1, 4.0, 'no'); z[0] = 9
+	error  
+    f. z = [1, 4.0, 'no']; z[0] = 9
+	[9, 4.0, 'no'] (This is the standard output if we print(z))  
     g. (e) demonstrates what property of sets?  
+	A tuple is immutable which means its elements cannot be changed.
     h. (f) demonstrates what property of lists?  
+	A list is mutable which means its elements can be changed
     
 ## Problem 3
 Using the conda environment from `Problem 1`, start a jupyter client-server application. Use
