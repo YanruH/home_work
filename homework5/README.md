@@ -21,7 +21,7 @@ In other words, try to do these without the aid of your broswer or `docstrings`.
     d. z = {1, 4.0, 'no'}; z[0]  
     e. z = (1, 4.0, 'no'); z[0] = 9  
     f. z = [1, 4.0, 'no']; z[0] = 9  
-    g. (e) demonstrates what property of sets?  
+    g. (e) demonstrates what property of tuples?  
     h. (f) demonstrates what property of lists?  
     
 ## Problem 3
