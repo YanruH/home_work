@@ -15,6 +15,7 @@ your fork to your local machine. Complete the rest of these exercises on your ma
 ## Problem 2 - `Closed Laptop`
 In other words, try to do these without the aid of your broswer or `docstrings`.
 1. Provide the expected output, if error, put "error".  
+<<<<<<< HEAD
     a. len({1, 1, 1.0, 1j, 'hello'}) 
 	3
     b. len((1, 1, 1.0, 1j, 'hello'))
@@ -29,6 +30,15 @@ In other words, try to do these without the aid of your broswer or `docstrings`.
 	[9, 4.0, 'no'] (This is the standard output if we print(z))  
     g. (e) demonstrates what property of sets?  
 	A tuple is immutable which means its elements cannot be changed.
+=======
+    a. len({1, 1, 1.0, 1j, 'hello'})  
+    b. len((1, 1, 1.0, 1j, 'hello'))  
+    c. len([1, 1, 1.0, 1j, 'hello'])  
+    d. z = {1, 4.0, 'no'}; z[0]  
+    e. z = (1, 4.0, 'no'); z[0] = 9  
+    f. z = [1, 4.0, 'no']; z[0] = 9  
+    g. (e) demonstrates what property of tuples?  
+>>>>>>> remotes/upstream/master
     h. (f) demonstrates what property of lists?  
 	A list is mutable which means its elements can be changed
     
