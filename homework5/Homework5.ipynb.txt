@@ -1,6 +1,7 @@
 {
  "cells": [
   {
+<<<<<<< HEAD
    "cell_type": "markdown",
    "metadata": {},
    "source": [
@@ -25,6 +26,10 @@
   {
    "cell_type": "code",
    "execution_count": 8,
+=======
+   "cell_type": "code",
+   "execution_count": 5,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -168,7 +173,11 @@
        "Automagic is ON, % prefix IS NOT needed for line magics."
       ]
      },
+<<<<<<< HEAD
      "execution_count": 8,
+=======
+     "execution_count": 5,
+>>>>>>> upstream/master
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -179,16 +188,27 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 9,
+=======
+   "execution_count": 2,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
+<<<<<<< HEAD
        "'/Users/emmasun/bios821/home_work/homework5'"
       ]
      },
      "execution_count": 9,
+=======
+       "'/Users/yanru/Documents/Bios821/home_work'"
+      ]
+     },
+     "execution_count": 2,
+>>>>>>> upstream/master
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -199,25 +219,77 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 10,
+=======
+   "execution_count": 3,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
+<<<<<<< HEAD
       "/Users/emmasun/bios821/home_work/homework5\n"
+=======
+      "/Users/yanru/Documents/Bios821/home_work\n"
+>>>>>>> upstream/master
      ]
     }
    ],
    "source": [
+<<<<<<< HEAD
     "%%bash\n",
+=======
+    "%%bash \n",
+>>>>>>> upstream/master
     "pwd"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 12,
+=======
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['whiskey', 'tango', 'foxtrot']\n"
+     ]
+    }
+   ],
+   "source": [
+    "names = ['whiskey', 'tango', 'foxtrot']\n",
+    "print(names)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('happy', 'eager', 'sad')\n"
+     ]
+    }
+   ],
+   "source": [
+    "adjectives =('happy', 'eager', 'sad')\n",
+    "print(adjectives)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -225,6 +297,7 @@
      "output_type": "stream",
      "text": [
       "happy-whiskey\n",
+<<<<<<< HEAD
       "eager-whiskey\n",
       "sad-whiskey\n",
       "happy-tango\n",
@@ -232,11 +305,21 @@
       "sad-tango\n",
       "happy-foxtrot\n",
       "eager-foxtrot\n",
+=======
+      "happy-tango\n",
+      "happy-foxtrot\n",
+      "eager-whiskey\n",
+      "eager-tango\n",
+      "eager-foxtrot\n",
+      "sad-whiskey\n",
+      "sad-tango\n",
+>>>>>>> upstream/master
       "sad-foxtrot\n"
      ]
     }
    ],
    "source": [
+<<<<<<< HEAD
     "names=['whiskey', 'tango', 'foxtrot']\n",
     "adjectives=('happy', 'eager', 'sad')\n",
     "\n",
@@ -245,11 +328,20 @@
     "        phrase=\"{}-{}\".format(adjective,name)\n",
     "        print(phrase)\n",
     "                   "
+=======
+    "for i in adjectives:\n",
+    "    for j in names:\n",
+    "        print(i + \"-\" + j)"
+>>>>>>> upstream/master
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 1,
+=======
+   "execution_count": 17,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -257,17 +349,27 @@
      "output_type": "stream",
      "text": [
       "happy-whiskey\n",
+<<<<<<< HEAD
       "eager-whiskey\n",
       "sad-whiskey\n",
       "happy-tango\n",
       "eager-tango\n",
       "happy-foxtrot\n",
       "eager-foxtrot\n",
+=======
+      "happy-tango\n",
+      "happy-foxtrot\n",
+      "eager-whiskey\n",
+      "eager-tango\n",
+      "eager-foxtrot\n",
+      "sad-whiskey\n",
+>>>>>>> upstream/master
       "sad-foxtrot\n"
      ]
     }
    ],
    "source": [
+<<<<<<< HEAD
     "names=['whiskey', 'tango', 'foxtrot']\n",
     "adjectives=('happy', 'eager', 'sad')\n",
     "\n",
@@ -278,11 +380,22 @@
     "            continue\n",
     "        print(phrase)\n",
     "                   "
+=======
+    "for i in adjectives:\n",
+    "    for j in names:\n",
+    "        if(i == 'sad' and j == 'tango'):\n",
+    "            continue\n",
+    "        print(i + \"-\" + j)"
+>>>>>>> upstream/master
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 15,
+=======
+   "execution_count": 23,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -290,15 +403,20 @@
      "output_type": "stream",
      "text": [
       "happy-whiskey\n",
+<<<<<<< HEAD
       "eager-whiskey\n",
       "sad-whiskey\n",
       "happy-tango\n",
       "eager-tango\n",
       "sad-tango\n"
+=======
+      "happy-tango\n"
+>>>>>>> upstream/master
      ]
     }
    ],
    "source": [
+<<<<<<< HEAD
     "names=['whiskey', 'tango', 'foxtrot']\n",
     "adjectives=('happy', 'eager', 'sad')\n",
     "\n",
@@ -310,6 +428,52 @@
     "        else:print(phrase)\n",
     "                   "
    ]
+=======
+    "breaker = False\n",
+    "for i in adjectives:\n",
+    "    for j in names:\n",
+    "        if (i == 'happy' and j == 'foxtrot'):\n",
+    "             breaker = True \n",
+    "             break\n",
+    "        print(i + \"-\" + j)\n",
+    "    if breaker: break;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+>>>>>>> upstream/master
   }
  ],
  "metadata": {
