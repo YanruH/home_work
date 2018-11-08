@@ -15,16 +15,6 @@ your fork to your local machine. Complete the rest of these exercises on your ma
 ## Problem 2 - `Closed Laptop`
 In other words, try to do these without the aid of your broswer or `docstrings`.
 1. Provide the expected output, if error, put "error".  
-    a. len({1, 1, 1.0, 1j, 'hello'}) = 3  
-    b. len((1, 1, 1.0, 1j, 'hello')) = 5 
-    c. len([1, 1, 1.0, 1j, 'hello']) = 5 
-    d. z = {1, 4.0, 'no'}; z[0]      error, set has no index
-    e. z = (1, 4.0, 'no'); z[0] = 9  (9, 4.0, 'no')
-    f. z = [1, 4.0, 'no']; z[0] = 9  [9, 4.0, 'no']
-    g. (e) demonstrates what property of sets?  
-	A set is an unordered collection of items, and every elements in the set is unique with no duplication and immutable. However, the set is mutable. We can add and remove items from it.
-    h. (f) demonstrates what property of lists?  
-	list is a collection of ordered and changeable items. And it allows duplicate elements.
 
 ## Problem 3
 Using the conda environment from `Problem 1`, start a jupyter client-server application. Use
